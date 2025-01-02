@@ -7,6 +7,7 @@ import { useTheme } from "./theme/useTheme";
 import { classNames } from "./helpers/classNames/classNames";
 
 const App = () => {
+  // asas
   const {theme, toggleTheme} = useTheme();
   return (
     <div className={classNames('app', {hovered: true, selected: false}, [theme])}>
